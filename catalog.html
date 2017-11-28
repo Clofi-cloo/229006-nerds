@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>catalog</title>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="header-positeoner">
+      <div class="header-logo">
+        <a href="index.html"><img src="img/nerds-logo.png" alt="логотип нёрдс" width="160" height="65"></a>
+      </div>
+        <ul class="header-menu">
+          <li>
+            <a href="#">студия</a>
+          </li>
+          <li>
+            <a href="#">клиенты</a>
+          </li>
+          <li>
+            <a href="#">магазин</a>
+          </li>
+          <li>
+            <a href="#">контакты</a>
+          </li>
+        </ul>
+      <div class="bag-menu">
+        <img src="img/cart-icon.png" alt="корзина" width="15" height="15">
+        <a class="bags" href="#">Корзина</a>
+      </div>
+      </div>
+      <div class="main-text">
+        <h1>Магазин готовых шаблонов</h1>
+      </div>
+
+  </header>
+
+  <div class="positioner-catalog">
+    <section class="main-catalog">
+      <div class="column-left">
+        <h3 class="section-title">Стоимость:</h3>
+        <!--- фильтр-->
+        <form action="form.php" method="GET">
+          <div class="range-filter">
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar" style="margin-left: 20%; width: 30%"></div>
+              </div>
+              <div class="toggle toggle-min"></div>
+              <div class="toggle toggle-max"></div>
+            </div>
+            <div class="price-controls">
+              <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+              <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+            </div>
+          </div>
+        </form>
+      <!--- фильтр-->
+        <div class="main-filter">
+          <h3 class="section-title">Сетка:</h3>
+          <label class="radio">Адаптивная
+            <input type="radio" name="radio" id="adaptive" checked>
+            <span class="checkmark"></span>
+          </label>
+          <label class="radio">Фиксированная
+            <input type="radio" name="radio" id="fixed">
+            <span class="checkmark"></span>
+          </label>
+          <label class="radio">Резиновая
+            <input type="radio" name="radio" id="rubber">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+
+        <div class="features-filter">
+          <h3 class="section-title">Особенности:</h3>
+          <label class="checkbox">
+             <input type="checkbox" name="feature" id="feature-slider" checked>Cлайдер
+             <span class="checkbox-mark"></span>
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="feature" id="feature-advantages">Блок преимуществ
+            <span class="checkbox-mark"></span>
+          </label>
+          <label class="checkbox">
+             <input type="checkbox" name="feature" id="feature-news" checked>Новости
+             <span class="checkbox-mark"></span>
+          </label>
+          <label class="checkbox">
+             <input type="checkbox" name="feature" id="feature-gallery">Галерея
+             <span class="checkbox-mark"></span>
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="feature" id="feature-basket">Корзина
+            <span class="checkbox-mark"></span>
+           </label>
+          <button class="btn gray" href="#">показать</button>
+      </div>
+    </div>
+
+  <div class="column-center">
+    <h3 class="section-title">Сортировать</h3>
+    <a class="image-positioner" href="#">
+      <img class="catalog-item" src="img/browser.png" alt="" width="360" height="40">
+      <img class="catalog-item" src="img/sedona.png" alt="сайт седона" width="360" height="576">
+      <div class="site-infomation">
+        <p class="item-title">Sedona</p>
+        <p class="item-description">Информационный сайт для туристов</p>
+        <button class="btn price-site" href="#">9 900 РУБ.</button>
+      </div>
+    </a>
+    <a class="image-positioner" href="#">
+      <img class="catalog-item" src="img/browser-gray.png" alt="" width="360" height="40">
+      <img class="catalog-item" src="img/barbershop.png" alt="сайт барбершоп" width="360" height="576">
+    </a>
+    <a class="image-positioner" href="#">
+      <img class="catalog-item" src="img/browser-gray.png" alt="" width="360" height="40">
+      <img class="catalog-item" src="img/aplus.png" alt="сайт а+" width="360" height="576">
+    </a>
+  </div>
+
+  <div class="column-right">
+    <div class="sort-items">
+      <ul>
+        <li><a href="#">По цене</a></li>
+        <li><a href="#">По типу</a></li>
+        <li><a href="#">По названию</a></li>
+      </ul>
+      <div class="sorting-arrow">
+        <a class="arrow-down" href="#"> <img class="figur-item" src="img/icon-down.png" alt="" width="11" height="10"></a>
+        <a class="arrow-up" href="#"><img class="figur-item" src="img/icon-up.png" alt="" width="11" height="10"></a>
+      </div>
+    </div>
+      <a class="image-positioner" href="#">
+        <img class="catalog-item" src="img/browser-gray.png" alt="" width="360" height="40">
+        <img class="catalog-item" src="img/pink.png" alt="сайт пинк" width="360" height="576">
+      </a>
+      <a class="image-positioner" href="#">
+        <img class="catalog-item" src="img/browser-gray.png" alt="" width="360" height="40">
+        <img class="catalog-item" src="img/mishka.png" alt="сайт мишка" width="360" height="576">
+      </a>
+      <a class="image-positioner" href="#">
+        <img class="catalog-item" src="img/browser-gray.png" alt="" width="360" height="40">
+        <img class="catalog-item" src="img/kvast.png" alt="сайт кваст" width="360" height="576">
+      </a>
+  </div>
+</section>
+
+  <div class="paginator">
+    <div class="pages-catalog">
+      <button class="btn number-page" href="#">1</button>
+      <button class="btn number-page" href="#">2</button>
+      <button class="btn number-page" href="#">3</button>
+      <button class="btn last" href="#">Следующая</button>
+    </div>
+  </div>
+</div>
+<!--закрылся позицеонер -->
+
+<section class="map">
+  <iframe src="https://yandex.ru/map-widget/v1/-/CBa5i8sRdB" width="100%" height="416" frameborder="0"></iframe>
+  <div class="map-positeoner">
+    <div class="adres-form">
+      <h3 class="section-title">Nёrds design studio</h3>
+      <p>191186, Санкт-Петербург ул.Б. Конюшенная, д. 19/8</p>
+      <p>тел. 7+ (812) 275-75-75</p>
+      <button class="btn form-btn" href="#">Напишите нам</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-social">
+    <a class="social-btn social-btn-vk" href="https://www.vk.com/">
+    <img src="img/vk-icon.png" alt="Вк" width="26" height="15"></a>
+    <a class="social-btn social-btn-fb" href="https://www.facebook.com/">
+    <img src="img/fb-icon.png" alt="Фб" width="12" height="22"></a>
+    <a class="social-btn social-btn-insta" href="https://www.instagram.com/">
+    <img src="img/insta-icon.png" alt="Инстаграм" width="21" height="21"></a>
+  </div>
+  <div class="text-footer">
+    <b class="promo-text">Давайте дружить, это выгодно!</b>
+    <p>Скидка 10% для друзей из социальных сетей.</p>
+  </div>
+</footer>
+
+  </body>
+</html>
