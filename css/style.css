@@ -890,3 +890,87 @@ sup {
   background-color: #eeeeee;
   border-radius: 4px;
 }
+
+/*forma*/
+
+.form-positioner {
+  position: fixed;
+  z-index: 1400;
+  display: none;
+  width: 960px;
+  background-color: #ffffff;
+  box-shadow: 0 20px 30px 10px rgba(0, 0, 0, 0.75);
+}
+
+.form-positioner.active {
+  display: block;
+  position: fixed;
+  min-height: 590px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-form {
+  width: 770px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-form .text-form {
+  margin-top: 72px;
+  font-size: 45px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.header-form a {
+  display: flex;
+  align-items: center;
+}
+
+.modal-mail {
+  display: block;
+  padding-left: 100px;
+}
+
+.entry-field {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+  width: 800px;
+}
+
+.entry-field input {
+  width: 355px;
+  height: 48px;
+  margin-top: 4px;
+  border-color: #b4b9bb;
+  font-weight: 500;
+  color: #000000;
+}
+
+ .window-form {
+   padding-top: 30px;
+ }
+ .window-form textarea {
+   display: block;
+   width: 750px;
+   height: 115px;
+   font: inherit;
+   font-weight: 400;
+   color: #444444;
+   border: 2px solid #d7dcde;
+   border-radius: 3px;
+}
+
+.form-positioner button {
+  width: 260px;
+  margin-top: 48px;
+  margin-left: 98px;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #fb565a;
+}
