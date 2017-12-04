@@ -149,9 +149,10 @@ button {
   border-radius: 50%;
   cursor: pointer;
 }
-#btn-1:checked ~ .slider-controls label[for="btn-1"],
-#btn-2:checked ~ .slider-controls label[for="btn-2"],
-#btn-3:checked ~ .slider-controls label[for="btn-3"] {
+
+.slider-btn-1:checked ~ .slider-controls label[for="btn-1"],
+.slider-btn-2:checked ~ .slider-controls label[for="btn-2"],
+.slider-btn-3:checked ~ .slider-controls label[for="btn-3"] {
   background:#c1c1c1;
 }
 
@@ -213,13 +214,13 @@ button {
   display:none;
 }
 
-#btn-1:checked ~ .slides .slide:nth-child(1) {
+.slider-btn-1:checked ~ .slides .slide:nth-child(1) {
   display: block;
 }
-#btn-2:checked ~ .slides .slide:nth-child(2) {
+.slider-btn-2:checked ~ .slides .slide:nth-child(2) {
   display: block;
 }
-#btn-3:checked ~ .slides .slide:nth-child(3) {
+.slider-btn-3:checked ~ .slides .slide:nth-child(3) {
   display: block;
 }
 
@@ -508,6 +509,7 @@ sup {
   display: flex;
   margin-top: 23px;
 }
+
 .social-btn {
   display: flex;
   justify-content: center;
@@ -799,7 +801,7 @@ sup {
   padding: 0 19px;
 }
 
-.price-site {
+.price-sedona {
   width: 200px;
   background-color: #fb565a;
   margin-left: 80px;
