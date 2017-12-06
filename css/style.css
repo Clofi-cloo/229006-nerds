@@ -452,12 +452,12 @@ sup {
 .map {
   position: relative;
   height: 416px;
-  background-color: #eeeeee;
-}
-
-.map-positeoner {
   width: 1440px;
   margin: 0 auto;
+}
+
+.map iframe {
+  border: 0;
 }
 
 .adres-form {
@@ -956,6 +956,10 @@ sup {
  .window-form {
    padding-top: 30px;
  }
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/master
  .window-form textarea {
    display: block;
    width: 750px;
