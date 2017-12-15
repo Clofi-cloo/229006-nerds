@@ -1,4 +1,4 @@
-	var link = document.querySelector('.adres-form button');
+	var link = document.querySelector('.address-form button');
 	var popup = document.querySelector('.form-positioner');
 	var close = popup.querySelector('.close-btn');
 
